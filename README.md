@@ -21,9 +21,6 @@ Istruzioni per l'installazione e la configurazione dell'ambiente di sviluppo di 
 | $ curl -sL https://deb.nodesource.com/setup_5.x | sudo -E bash -
 | $ sudo apt-get install -y nodejs
 
-* BOWER A LIVELLO GLOBALE
-| $ sudo npm install -g bower
-
 * GRUNT A LIVELLO GLOBALE
 | $ sudo npm install -g grunt-cli 
 
@@ -35,10 +32,6 @@ Istruzioni per l'installazione e la configurazione dell'ambiente di sviluppo di 
 
 * NPM
 | $ npm install [ci saranno dei messaggi WARN => ignorarli]
-| $ npm install bower
-
-* BOWER 
-| $ bower install [scegliere versione più recente di angular consigliata per evt-viewer]
 
 * START GRUNT DEV
 | $ grunt dev [se evt-viewer non è visualizzato correttamente nel branch master => passare al branch develop ]
@@ -85,9 +78,6 @@ Istruzioni per l'installazione e la configurazione dell'ambiente di sviluppo di 
 * NODEJS
 | Installare nodejs da https://nodejs.org/ o https://nodejs.org/en/download/package­manager
 
-* BOWER A LIVELLO GLOBALE
-| $ npm install -g bower 
-
 * GRUNT A LIVELLO GLOBALE
 | $ npm install -g grunt-cli
 
@@ -99,10 +89,6 @@ Istruzioni per l'installazione e la configurazione dell'ambiente di sviluppo di 
 
 * NPM
 | $ npm install [ci saranno dei messaggi WARN => ignorarli]
-| $ npm install bower
-
-* BOWER 
-| $ bower install [scegliere versione più recente di angular consigliata per evt-viewer]
 
 * START GRUNT DEV
 | $ grunt dev [se evt-viewer non è visualizzato correttamente nel branch master => passare al branch develop ]
@@ -142,9 +128,6 @@ Istruzioni per l'installazione e la configurazione dell'ambiente di sviluppo di 
 * NODE JS
 | $ sudo brew install node
 
-* BOWER A LIVELLO GLOBALE
-| $ sudo npm install -g bower
-
 * GRUNT A LIVELLO GLOBALE
 | $ sudo npm install -g grunt-cli 
 
@@ -156,10 +139,6 @@ Istruzioni per l'installazione e la configurazione dell'ambiente di sviluppo di 
 
 * NPM
 | $ npm install [ci saranno dei messaggi di WARN => ignorarli]
-| $ npm install bower
-
-* BOWER 
-| $ bower install [scegliere versione più recente di angular consigliata per evt-viewer]
 
 * START GRUNT DEV
 | $ grunt dev [se evt-viewer è visualizzato correttamente nel branch master => passare al branch critica-edition ]
@@ -181,5 +160,4 @@ Istruzioni per l'installazione e la configurazione dell'ambiente di sviluppo di 
 
 Ogni volta che viene installato un pacchetto nuovo, è necessario:
 – interrompere il flusso grunt dev, 
-– lanciare nuovamente bower install
 – rilanciare grunt dev

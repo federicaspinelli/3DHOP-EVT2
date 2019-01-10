@@ -21,9 +21,6 @@ Short instructions to install and configure the development framework for EVT 2.
 | $ curl -sL https://deb.nodesource.com/setup_5.x | sudo -E bash -
 | $ sudo apt-get install -y nodejs
 
-* BOWER AT SYSTEM LEVEL
-| $ sudo npm install -g bower
-
 * GRUNT AT SYSTEM LEVEL
 | $ sudo npm install -g grunt-cli 
 
@@ -35,10 +32,6 @@ Short instructions to install and configure the development framework for EVT 2.
 
 * NPM
 | $ npm install [ignore any WARN message, they are harmless]
-| $ npm install bower
-
-* BOWER 
-| $ bower install [choose the angular.js version recommended for evt-viewer]
 
 * START GRUNT DEV
 | $ grunt dev [most likely at this point in time evt-viewer won't be launched correctly starting from the master branch, see below how to switch to the develop branch]
@@ -86,9 +79,6 @@ Short instructions to install and configure the development framework for EVT 2.
 * NODEJS
 | Install nodejs from https://nodejs.org/ or https://nodejs.org/en/download/package­manager
 
-* BOWER AT SYSTEM LEVEL
-| $ npm install -g bower 
-
 * GRUNT AT SYSTEM LEVEL
 | $ npm install -g grunt-cli
 
@@ -100,10 +90,6 @@ Short instructions to install and configure the development framework for EVT 2.
 
 * NPM
 | $ npm install [ignore any WARN message, they are harmless]
-| $ npm install bower
-
-* BOWER 
-| $ bower install [choose the angular.js version recommended for evt-viewer]
 
 * START GRUNT DEV
 | $ grunt dev [most likely at this point in time evt-viewer won't be launched correctly starting from the master branch, see below how to switch to the develop branch]
@@ -143,9 +129,6 @@ Short instructions to install and configure the development framework for EVT 2.
 * NODE JS
 | $ sudo brew install node
 
-* BOWER AT SYSTEM LEVEL
-| $ sudo npm install -g bower
-
 * GRUNT AT SYSTEM LEVEL
 | $ sudo npm install -g grunt-cli 
 
@@ -157,10 +140,6 @@ Short instructions to install and configure the development framework for EVT 2.
 
 * NPM
 | $ npm install [ignore any WARN message, they are harmless]
-| $ npm install bower
-
-* BOWER 
-| $ bower install [choose the angular.js version recommended for evt-viewer]
 
 * START GRUNT DEV
 | $ grunt dev [most likely at this point in time evt-viewer won't be launched correctly starting from the master branch, see below how to switch to the develop branch]
