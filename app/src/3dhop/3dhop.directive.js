@@ -45,10 +45,10 @@ angular.module('evtviewer.3dhop')
 					},
 					modelInstances: {
 						"Model1": {
-							mesh: "Cage"
+							mesh: "Gargoyle"
 						},
 						"Model2": {
-							mesh: "Gargoyle"
+							mesh: "Cage"
 						}
 					}
 				});
@@ -93,6 +93,13 @@ angular.module('evtviewer.3dhop')
 						sectiontoolReset();
 						sectiontoolSwitch();
 					}
+					//inizio hotspots 
+					else if(action=='hotspot'|| action=='hotspot_on') { presenter.toggleSpotVisibility(HOP_ALL, true); presenter.enableOnHover(!presenter.isOnHoverEnabled()); hotspotSwitch(); }
+					//fine hotspots
+	
+						
+					else if(action=='measure' || action=='measure_on') { presenter.enableMeasurementTool(!presenter.isMeasurementToolEnabled()); measureSwitch(); } 
+	
 					//--SECTIONS--
 				} catch (e) {
 					console.log(e)
