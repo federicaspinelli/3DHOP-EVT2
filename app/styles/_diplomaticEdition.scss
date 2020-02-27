@@ -1,7 +1,3 @@
-/* *************************** */
-/* DIPLOMATIC EDITION 		   */
-/* *************************** */
-
 .diplomaticEdition {
 	// Abbreviations and Expansions
 	.choice {
@@ -50,8 +46,7 @@
 			}
 		}
 
-      .expan,
-      .expan * {
+      .expan, .expan * {
 			background: #e5dac4 !important;
 		}
 
@@ -99,11 +94,9 @@
 	}
 
 	// 3.4 Simple Editorial Changes
-
 	// 3.4.2 Regularization and Normalization
 	.choice {
-      &:hover,
-      &.hover {
+      &:hover, &.hover {
          .reg {
             display: inline;
             min-width: 20px;
@@ -116,9 +109,11 @@
             //z-index: 9;
          }
       }
+
 		.corr {
 			display: none;
-		}
+      }
+
       .orig {
          color: #69513a;
          /*.sup {
